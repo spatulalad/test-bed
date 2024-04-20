@@ -1,3 +1,5 @@
+let age = 50
+
 function categorizeAge(personAge) {
   if (personAge < 0) {
     return 'invalid age';
@@ -7,11 +9,9 @@ function categorizeAge(personAge) {
     return 'teen';
   } else if (age <= 64) {
     return 'adult';
-    else {
+     else {
       return 'senior';
     }
-}
+  }
 
-let age = 50
 
-  console.log(return);
